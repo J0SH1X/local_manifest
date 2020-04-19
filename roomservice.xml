@@ -1,0 +1,13 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/lge/judyln" name="j0sh1x/android_device_lge_judyln" revision="lineage-17.1" />
+  <project path="device/lge/sdm845-common" name="j0sh1x/android_device_lge_sdm845-common" revision="lineage-17.1" />
+  <project path="vendor/lge" name="j0sh1x/android_vendor_lge" revision="lineage-17.1" />
+  <project path="kernel/lge/sdm845" name="j0sh1x/android_kernel_lge_sdm845" revision="lineage-17.1" />
+
+
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <project path="packages/apps/Updater" name="j0sh1x/android_packages_apps_Updater" revision="master" />
+  <project path="Lineage-OTA" name="j0sh1x/Lineage-OTA" revision="master" />  
+</manifest>
